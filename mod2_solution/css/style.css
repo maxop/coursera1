@@ -38,7 +38,7 @@ h1 {
 .row section p {
 	position: relative;
 	top:20px;
-	//margin-bottom: 20px; //this one fix it
+	margin-bottom: 20px; //this one fix it
 }
 
 .container {
