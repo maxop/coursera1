@@ -7,7 +7,7 @@ h1 {
 	text-align: center;
 	margin-bottom: 50px;
 }
-section {
+.row section {
 	float: left;
 }
 .container {
@@ -16,17 +16,29 @@ section {
 	position: relative;
 	border: black 3px solid;
 }
-.container-title {
+
+.container-title1, .container-title2, .container-title3 {
 	position: absolute;
 	top:0;
 	right:0;
 	border-left:black solid 2px;
 	border-bottom:black solid 2px;
+	padding: 2px 6px;
+}
+.container-title1 {
 	background-color: red;
 }
-section p {
+.container-title2 {
+	background-color: yellow;
+	color: black;
+}
+.container-title3 {
+	background-color: purple;
+}
+.row section p {
 	position: relative;
-	top:15px;
+	top:20px;
+	margin-bottom: 20px; //this one fix it
 }
 
 .container {
