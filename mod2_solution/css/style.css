@@ -36,9 +36,7 @@ h1 {
 	background-color: purple;
 }
 .row section p {
-	position: relative;
-	top:20px;
-	margin-bottom: 20px; //this one fix it
+	margin-top: 30px;
 }
 
 .container {
